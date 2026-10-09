@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(225, 11%, 15%);
+  margin: 10px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.acBtn {
+  background-color: blue;
+  border: 2px;
+  border-radius: 7px;
+}
+.calculateBtn {
+  background-color: blue;
+  border: 2px;
+  border-radius: 7px;
+}
+.numBtn {
+  background-color: blue;
+  border: 2px;
+  border-radius: 7px;
+}
+.acBtn:hover {
+  background-color: rgb(75, 75, 244);
+}
+.calculateBtn:hover {
+  background-color: rgb(75, 75, 244);
+}
+.numBtn:hover {
+  background-color: rgb(75, 75, 244);
+}
+.operatorBtn {
+  background-color: blue;
+  border: 2px;
+  border-radius: 7px;
+}
+.operatorBtn:hover {
+  background-color: rgb(75, 75, 244);
+}
+.displayField {
+  background-color: rgb(95, 99, 104);
+  border: 2px solid black;
+  border-radius: 7px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.calci {
+  border: 2px solid white;
+  border-radius: 7px;
+}
